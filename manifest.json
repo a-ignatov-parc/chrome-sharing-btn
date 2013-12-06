@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Sharing button",
+	"version": "0.1.0",
+
+	"description": "",
+	"default_locale": "en",
+
+	"content_scripts": [{
+		"matches": ["http://*/*"],
+		"js": ["jquery.js", "myscript.js"]
+	}],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}

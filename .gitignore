@@ -1,0 +1,11 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+._*.*
+
+#Project temp data
+static/styles/css/
+build/
+
+#grunt.js packages
+node_modules/
